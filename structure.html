@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Karcha</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="box">
+            <h1>karcha 💰💰</h1>
+            <div class="total">
+                <span >
+                    amount : 
+                </span>
+                <span class="value" id="total_amount">
+                </span>
+            </div>
+
+            <div class="history" id="expense_table">
+                <div><h3>Transaction History</h3>
+                <button class="btn btn3" onclick="remove()">remove history</button></div>
+                <table>
+                    <thead>
+                        <tr>
+                          <th>Date</th>
+                          <th>Source</th>
+                          <th>Amount</th>
+                        </tr>
+
+                    </thead>
+                    <tbody>
+
+                    </tbody>
+                    <!-- <tr>
+                      <td>10 Nov, 24</td>
+                      <td>Mummy</td>
+                      <td>+1000</td>
+                    </tr>
+                    <tr>
+                      <td>11 Nov, 24</td>
+                      <td>food</td>
+                      <td>-500</td>
+                    </tr>
+                    <tr>
+                      <td>11 Nov, 24</td>
+                      <td>shop</td>
+                      <td>-300</td>
+                    </tr> -->
+                </table>
+            </div>
+            
+            <button class="btn btn1">add</button>
+            <button class="btn btn2">today expense</button>
+            <!-- <input type="password" id="password-input" placeholder="enter the password"> -->
+            <button class="btn btn4" onclick="reset()">reset</button>
+        </div>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
